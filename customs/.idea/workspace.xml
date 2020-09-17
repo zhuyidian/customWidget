@@ -30,7 +30,33 @@
     <last-search-timestamp>1600336024617</last-search-timestamp>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9132afba-7679-42bf-93d9-2a6b80589f4d" name="Default Changelist" comment="" />
+    <list default="true" id="9132afba-7679-42bf-93d9-2a6b80589f4d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/libraryview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/librarycircletick.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/src/androidTest/java/com/tc/library/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/src/androidTest/java/com/tc/library/ApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/src/main/java/com/tc/library/CircleTickView.java" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/src/main/java/com/tc/library/CircleTickView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/src/main/java/com/tc/library/UIConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/src/main/java/com/tc/library/UIConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryview/src/test/java/com/tc/library/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/librarycircletick/src/test/java/com/tc/library/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +77,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="50" selection-start-column="50" selection-end-column="50" />
+              <caret column="56" selection-start-column="56" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -107,7 +124,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraryview/build.gradle">
+        <entry file="file://$PROJECT_DIR$/librarycircletick/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="40" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="40" />
@@ -118,8 +135,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/src/main/kotlin/io/jitpack/api/JitPackJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="22" />
+            <state relative-caret-position="90">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -155,9 +181,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="x" value="598" />
+    <option name="y" value="24" />
+    <option name="width" value="1853" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,7 +210,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/software/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../android-jitpack-library-example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CircleCircle/CircleCircle/TouchViewTest2" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Build Variants" />
     <property name="project.structure.proportion" value="0.17" />
@@ -272,7 +299,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraryview/src/main/java/com/tc/library/CircleTickView.java">
+    <entry file="file://$PROJECT_DIR$/librarycircletick/src/main/java/com/tc/library/CircleTickView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
@@ -299,7 +326,7 @@
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
+          <caret column="56" selection-start-column="56" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -320,22 +347,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraryview/build.gradle">
+    <entry file="file://$PROJECT_DIR$/librarycircletick/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="40" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/main/kotlin/io/jitpack/api/JitPack.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/library/src/main/kotlin/io/jitpack/api/JitPackJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="22" />
+        <state relative-caret-position="90">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/kotlin/io/jitpack/api/JitPack.kt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

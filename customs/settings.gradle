@@ -1,1 +1,1 @@
-include ':library', ':libraryview', ':libraryview2'
+include ':library', ':librarycircletick', ':libraryview2'

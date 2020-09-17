@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/customs.iml" filepath="$PROJECT_DIR$/customs.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraryview/libraryview.iml" filepath="$PROJECT_DIR$/libraryview/libraryview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/librarycircletick/librarycircletick.iml" filepath="$PROJECT_DIR$/librarycircletick/librarycircletick.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraryview2/libraryview2.iml" filepath="$PROJECT_DIR$/libraryview2/libraryview2.iml" />
     </modules>
   </component>

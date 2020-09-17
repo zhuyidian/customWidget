@@ -38,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
                 "１,父布局指定大小 2,资源自适应大小 3,onLayout",
                 "com.example.sample.CirclePanActivity");
         mListData.add(beanCirclePan);
+        //add calendar
+        CustomBean beanCalendar = new CustomBean("calendar",
+                "１,父布局指定大小 2,资源自适应大小 3,onLayout",
+                "com.example.sample.CalendarActivity");
+        mListData.add(beanCalendar);
 
         mAdapter = new CustomAdapter(MainActivity.this,mListData);
         list.setAdapter(mAdapter);

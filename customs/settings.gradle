@@ -1,1 +1,1 @@
-include ':librarycircletick', ':librarycirclepan', ':sample'
+include ':librarycircletick', ':librarycirclepan', ':librarycalendar', ':sample'

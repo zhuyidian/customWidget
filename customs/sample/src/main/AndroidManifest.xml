@@ -19,6 +19,7 @@
 
         <activity android:name=".CircleTickActivity"/>
         <activity android:name=".CirclePanActivity"/>
+        <activity android:name=".CalendarActivity"/>
     </application>
 
 </manifest>

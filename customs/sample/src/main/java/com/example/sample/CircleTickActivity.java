@@ -11,7 +11,8 @@ import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
-import com.tc.library.CircleTickView;
+
+import com.tc.tick.CircleTickView;
 
 
 public class CircleTickActivity extends AppCompatActivity {

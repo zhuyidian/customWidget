@@ -1,1 +1,1 @@
-include ':library', ':librarycircletick', ':libraryview2'
+include ':librarycircletick', /*':libraryview2', */':sample'

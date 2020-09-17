@@ -2,23 +2,17 @@ package com.example.sample;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import com.tc.calendar.CalendarView;
 import com.tc.calendar.DateUtils;
-import com.tc.pan.CirclePanView;
-
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Iterator;
-import java.util.Map;
 
 public class CalendarActivity extends Activity implements View.OnClickListener {
     private LinearLayout calender_layout;

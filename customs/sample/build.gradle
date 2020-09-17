@@ -39,6 +39,7 @@ dependencies {
     //implementation project(':librarycirclepan')
     implementation 'com.github.teamZW.customWidget:librarycirclepan:1.0.5'
 
-
-    implementation project(':librarycalendar')
+    //calendar
+    //implementation project(':librarycalendar')
+    implementation 'com.github.teamZW.customWidget:librarycalendar:1.0.6'
 }

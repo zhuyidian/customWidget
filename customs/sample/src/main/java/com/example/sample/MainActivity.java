@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         mListData.add(beanCirclePan);
         //add calendar
         CustomBean beanCalendar = new CustomBean("calendar",
-                "１,父布局指定大小 2,资源自适应大小 3,onLayout",
+                "１,父布局自适应大小 2,测量指定大小 3,onDraw",
                 "com.example.sample.CalendarActivity");
         mListData.add(beanCalendar);
 

@@ -1,4 +1,4 @@
-package com.tc.library;
+package com.tc.tick;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,6 +12,8 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
+
+import com.tc.library.R;
 
 public class CircleTickView extends View {
     //===================整体

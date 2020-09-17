@@ -42,6 +42,7 @@ public class CustomAdapter extends BaseAdapter {
             holder = new ViewHolder();
             convertView = LayoutInflater.from(mContext).inflate(R.layout.item_custom, null);
             holder.name = (TextView) convertView.findViewById(R.id.name);
+            holder.info = (TextView) convertView.findViewById(R.id.info);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
@@ -49,12 +50,14 @@ public class CustomAdapter extends BaseAdapter {
 
         CustomBean user = mListData.get(position);
         holder.name.setText(user.getName());
+        holder.info.setText(user.getInfo());
 
         return convertView;
     }
 
     private class ViewHolder {
         TextView name; //名称
+        TextView info; //info
     }
 
     public void refresh() {

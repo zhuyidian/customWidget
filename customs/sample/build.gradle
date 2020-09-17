@@ -31,5 +31,8 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:+'
     testImplementation 'junit:junit:4.12'
 
-    implementation project(':librarycircletick')
+//    implementation project(':librarycircletick')
+    implementation 'com.github.teamZW:customWidget:1.0.4'  //
+
+    implementation project(':librarycirclepan')
 }

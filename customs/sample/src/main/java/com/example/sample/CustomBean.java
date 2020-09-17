@@ -3,18 +3,15 @@ package com.example.sample;
 public class CustomBean {
 	/** 名称 */
 	private String name;
-	/**
-	 * 跳转
-	 */
+	/** 说明 */
+	private String info;
+	/** url */
 	private String activityUri;
 
-	public CustomBean() {
-
-	}
-
-	public CustomBean(String name, String activityUri) {
+	public CustomBean(String name, String info, String activityUri) {
 		super();
 		this.name = name;
+		this.info = info;
 		this.activityUri = activityUri;
 	}
 
@@ -24,6 +21,14 @@ public class CustomBean {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getInfo() {
+		return info;
+	}
+
+	public void setInfo(String info) {
+		this.info = info;
 	}
 
 	public String getActivityUri() {
@@ -36,6 +41,6 @@ public class CustomBean {
 
 	@Override
 	public String toString() {
-		return "CustomBean [name=" + name + ", activityUri=" + activityUri + "]";
+		return "CustomBean [name=" + name + ", info=" + info + ", activityUri=" + activityUri + "]";
 	}
 }

@@ -27,8 +27,18 @@ public class MainActivity extends AppCompatActivity {
 
     private void initValue(){
         mListData = new ArrayList<>();
-        CustomBean beanCircleTick = new CustomBean("circleTick","com.example.sample.CircleTickActivity");
+
+        //add circleTick
+        CustomBean beanCircleTick = new CustomBean("circleTick",
+                "１,父布局自适应大小 2,测量指定大小 3,onDraw",
+                "com.example.sample.CircleTickActivity");
         mListData.add(beanCircleTick);
+        //add circlePan
+        CustomBean beanCirclePan = new CustomBean("circlePan",
+                "１,父布局指定大小 2,资源自适应大小 3,onLayout",
+                "com.example.sample.CirclePanActivity");
+        mListData.add(beanCirclePan);
+
         mAdapter = new CustomAdapter(MainActivity.this,mListData);
         list.setAdapter(mAdapter);
     }

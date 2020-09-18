@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/customs.iml" filepath="$PROJECT_DIR$/customs.iml" group="customs" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library_light_view/library_light_view.iml" filepath="$PROJECT_DIR$/.idea/modules/library_light_view/library_light_view.iml" group="customs/library_light_view" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/library_move_draw/library_move_draw.iml" filepath="$PROJECT_DIR$/.idea/modules/library_move_draw/library_move_draw.iml" group="customs/library_move_draw" />
       <module fileurl="file://$PROJECT_DIR$/librarycalendar/librarycalendar.iml" filepath="$PROJECT_DIR$/librarycalendar/librarycalendar.iml" group="customs/librarycalendar" />
       <module fileurl="file://$PROJECT_DIR$/librarycirclepan/librarycirclepan.iml" filepath="$PROJECT_DIR$/librarycirclepan/librarycirclepan.iml" group="customs/librarycirclepan" />

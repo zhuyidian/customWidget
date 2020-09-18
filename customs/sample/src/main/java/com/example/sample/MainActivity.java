@@ -49,6 +49,11 @@ public class MainActivity extends AppCompatActivity {
                 "com.example.sample.MoveDarwActivity");
         mListData.add(beanDraw);
 
+        CustomBean beanlight = new CustomBean("Light",
+                "智能设想灯",
+                "com.example.sample.LightActivity");
+        mListData.add(beanlight);
+
         mAdapter = new CustomAdapter(MainActivity.this,mListData);
         list.setAdapter(mAdapter);
     }

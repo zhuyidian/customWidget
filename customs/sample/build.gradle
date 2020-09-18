@@ -44,4 +44,5 @@ dependencies {
     implementation 'com.github.teamZW.customWidget:librarycalendar:1.0.6'
 
     implementation project(':library_move_draw')
+    implementation project(':library_light_view')
 }

@@ -1,4 +1,4 @@
-package com.example.sample;
+package com.example.sample.widget;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 
+import com.example.sample.R;
 import com.utils.AppUtils;
 import com.widget.draw.MoveDrawAreaView;
 import com.wiget.light.LightView;

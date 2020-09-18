@@ -1,4 +1,4 @@
-package com.example.sample;
+package com.example.sample.widget;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.example.sample.R;
 import com.tc.calendar.CalendarView;
 import com.tc.calendar.DateUtils;
 import com.utils.AppUtils;

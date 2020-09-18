@@ -1,10 +1,11 @@
-package com.example.sample;
+package com.example.sample.widget;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.example.sample.R;
 import com.tc.pan.CirclePanView;
 
 public class CirclePanActivity extends Activity {

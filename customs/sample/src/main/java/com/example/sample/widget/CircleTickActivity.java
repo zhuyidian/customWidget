@@ -1,4 +1,4 @@
-package com.example.sample;
+package com.example.sample.widget;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
 
+import com.example.sample.R;
 import com.tc.tick.CircleTickView;
 
 

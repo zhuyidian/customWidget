@@ -30,3 +30,7 @@
 /customs/library_move_draw/build/
 /customs/library_move_draw/*.iml
 
+#library_animation
+/customs/library_animation/build/
+/customs/library_animation/*.iml
+

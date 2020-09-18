@@ -48,4 +48,7 @@ dependencies {
     implementation 'com.github.teamZW.customWidget:library_move_draw:1.0.7'
     implementation 'com.github.teamZW.customWidget:library_light_view:1.0.7'
 
+    //animation
+    implementation project(':library_animation')
+
 }

@@ -1,4 +1,4 @@
-package com.example.sample;
+package com.example.sample.data;
 
 public class CustomBean {
 	/** 名称 */

@@ -20,6 +20,8 @@
         <activity android:name=".CircleTickActivity"/>
         <activity android:name=".CirclePanActivity"/>
         <activity android:name=".CalendarActivity"/>
+        <activity android:name=".MoveDarwActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

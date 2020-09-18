@@ -39,20 +39,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9132afba-7679-42bf-93d9-2a6b80589f4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sample/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sample/sample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/src/main/java/com/example/sample/CalendarActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/java/com/example/sample/CalendarActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/src/main/java/com/example/sample/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/java/com/example/sample/MainActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,16 +61,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/example/sample/CirclePanActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <element signature="e#621#925#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -108,10 +92,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/example/sample/CalendarActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+            <state relative-caret-position="59">
+              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#onDestroy#0;class#CalendarActivity#0" />
                 <element signature="method#onClick#0;class#CalendarActivity#0" />
               </folding>
@@ -121,18 +104,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/librarycalendar-1.0.6.aar/a2887a731dc695fa1f748512144cfbe0/res/layout/content_calendar.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1275">
-              <caret line="85" column="50" lean-forward="true" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
+              <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/librarycalendar/src/main/java/com/tc/calendar/CalendarView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1011">
+            <state relative-caret-position="1230">
               <caret line="153" column="86" selection-start-line="153" selection-start-column="86" selection-end-line="153" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -170,7 +153,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/software/Android/Sdk/sources/android-28/android/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="341400">
               <caret line="23259" column="25" selection-start-line="23259" selection-start-column="25" selection-end-line="23259" selection-end-column="25" />
             </state>
           </provider>
@@ -187,12 +170,12 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/activity_circletick.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
           <provider editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -276,6 +259,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -520,9 +504,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -643,10 +626,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23548922" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23548922" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -654,18 +638,17 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Find" weight="0.32939914" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="5" weight="0.35193133" />
+      <window_info active="true" anchor="bottom" id="Build" order="5" visible="true" weight="0.35193133" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.32939914" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="9" />
-      <window_info anchor="right" id="Preview" weight="0.30071864" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32939914" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -673,16 +656,11 @@
       <window_info anchor="right" id="Flutter Outline" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Device File Explorer" order="6" side_tool="true" />
+      <window_info anchor="right" id="Preview" order="7" weight="0.30071864" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4946">
-          <caret line="2323" selection-start-line="2323" selection-end-line="2323" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
     <entry file="file://$PROJECT_DIR$/librarycircletick/src/main/res/values/attrs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -721,12 +699,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/librarycirclepan/src/main/java/com/tc/library/CircleTickView.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/librarycirclepan/src/main/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/librarycirclepan/src/main/java/com/tc/library/CircleTickView.java" />
+    <entry file="file://$PROJECT_DIR$/librarycirclepan/src/main/res/values/attrs.xml" />
     <entry file="file://$PROJECT_DIR$/librarycircletick/build/generated/source/buildConfig/debug/com/tc/library/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -748,9 +722,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/librarycirclepan/librarycircletick.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/librarycirclepan/librarycircletick.iml" />
     <entry file="file://$PROJECT_DIR$/librarycirclepan/library.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -778,12 +750,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="29" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customWidget-1.0.4.aar/c8697395c9b3a9941e32a554853ebf1e/res/values/values.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -831,12 +803,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/item_custom.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/librarycirclepan/src/main/java/com/tc/pan/CirclePanView.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -858,18 +830,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/librarycalendar/src/main/res/drawable-hdpi/alpha.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/librarycalendar/src/main/res/drawable-ldpi/alpha.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/librarycalendar/src/main/res/drawable-mdpi/alpha.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/librarycalendar/src/main/java/com/tc/calendar/CirclePanView.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/librarycalendar/src/main/res/drawable-hdpi/alpha.png" />
+    <entry file="file://$PROJECT_DIR$/librarycalendar/src/main/res/drawable-ldpi/alpha.png" />
+    <entry file="file://$PROJECT_DIR$/librarycalendar/src/main/res/drawable-mdpi/alpha.png" />
+    <entry file="file://$PROJECT_DIR$/librarycalendar/src/main/java/com/tc/calendar/CirclePanView.java" />
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/example/sample/CircleTickActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -882,9 +846,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/librarycalendar/librarycirclepan.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/librarycalendar/librarycirclepan.iml" />
     <entry file="file://$PROJECT_DIR$/librarycalendar/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
@@ -903,12 +865,12 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/activity_circlepan.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -918,12 +880,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/librarycalendar/src/main/res/layout/content_calendar.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="49" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
@@ -939,32 +901,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/activity_calendar.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/activity_circletick.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/build.gradle">
+    <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/example/sample/CirclePanActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/librarycalendar-1.0.6.aar/a2887a731dc695fa1f748512144cfbe0/jars/classes.jar!/com/tc/calendar/CalendarView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -975,27 +922,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/example/sample/CirclePanActivity.java">
+    <entry file="file://$PROJECT_DIR$/sample/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#621#925#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="630">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/software/Android/Sdk/sources/android-28/android/view/View.java">
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/librarycalendar-1.0.6.aar/a2887a731dc695fa1f748512144cfbe0/res/layout/content_calendar.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="23259" column="25" selection-start-line="23259" selection-start-column="25" selection-end-line="23259" selection-end-column="25" />
+        <state relative-caret-position="1275">
+          <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/librarycalendar/src/main/java/com/tc/calendar/CalendarView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1011">
+        <state relative-caret-position="1230">
           <caret line="153" column="86" selection-start-line="153" selection-start-column="86" selection-end-line="153" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1027,20 +971,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/librarycalendar-1.0.6.aar/a2887a731dc695fa1f748512144cfbe0/res/layout/content_calendar.xml">
+    <entry file="file://$USER_HOME$/software/Android/Sdk/sources/android-28/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="50" lean-forward="true" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
+        <state relative-caret-position="341400">
+          <caret line="23259" column="25" selection-start-line="23259" selection-start-column="25" selection-end-line="23259" selection-end-column="25" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/librarycalendar-1.0.6.aar/a2887a731dc695fa1f748512144cfbe0/jars/classes.jar!/com/tc/calendar/CalendarView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/main/res/layout/activity_circletick.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/example/sample/CalendarActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+        <state relative-caret-position="59">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#onDestroy#0;class#CalendarActivity#0" />
             <element signature="method#onClick#0;class#CalendarActivity#0" />
           </folding>

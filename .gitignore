@@ -1,0 +1,34 @@
+# customs
+/customs/.gradle/
+/customs/.idea/
+/customs/.svn/
+/customs/java_pid5600.hprof
+# /customs/Eye4_4.0.012.iml
+# /customs/Eye4_as_5.0.1.iml
+# /customs/Eye4_master.iml
+# /customs/Eye4Main.iml
+# /customs/Eye4Masters.iml  
+# /customs/local.properties
+
+#sample
+/customs/sample/build/
+# /customs/sample/common.iml
+
+#librarycalendar
+/customs/librarycalendar/build/
+# /customs/librarycalendar/eye4_40.iml
+# /customs/librarycalendar/lint.iml
+# /customs/librarycalendar/local.properties
+
+#librarycirclepan     
+/customs/librarycirclepan/build/
+
+#librarycircletick
+/customs/librarycircletick/build/
+
+#library_light_view
+/customs/library_light_view/build/
+
+#library_move_draw
+/customs/library_move_draw/build/
+

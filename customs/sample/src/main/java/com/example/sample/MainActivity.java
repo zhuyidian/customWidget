@@ -44,6 +44,11 @@ public class MainActivity extends AppCompatActivity {
                 "com.example.sample.CalendarActivity");
         mListData.add(beanCalendar);
 
+        CustomBean beanDraw = new CustomBean("draw",
+                "区域绘制",
+                "com.example.sample.MoveDarwActivity");
+        mListData.add(beanDraw);
+
         mAdapter = new CustomAdapter(MainActivity.this,mListData);
         list.setAdapter(mAdapter);
     }

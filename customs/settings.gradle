@@ -1,1 +1,1 @@
-include ':librarycircletick', ':librarycirclepan', ':librarycalendar', ':sample'
+include ':librarycircletick', ':librarycirclepan', ':librarycalendar', ':sample','library_move_draw'

@@ -17,8 +17,6 @@ public class LightActivity extends Activity implements View.OnClickListener {
     /**
      * 年月日的集合    [20160726, 20160725, 20160724]
      */
-
-
     /**
      * Called when the activity is first created.
      */

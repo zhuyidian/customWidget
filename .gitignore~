@@ -4,29 +4,31 @@
 /customs/.svn/
 /customs/java_pid5600.hprof   
 /customs/local.properties
-/customs/*.iml
+# /customs/Eye4_as_5.0.1.iml
+# /customs/Eye4_master.iml
+# /customs/Eye4Main.iml
+# /customs/Eye4Masters.iml  
+# /customs/local.properties
 
 #sample
 /customs/sample/build/
-/customs/sample/*.iml
+# /customs/sample/common.iml
 
 #librarycalendar
 /customs/librarycalendar/build/
-/customs/librarycalendar/*.iml
+# /customs/librarycalendar/eye4_40.iml
+# /customs/librarycalendar/lint.iml
+# /customs/librarycalendar/local.properties
 
 #librarycirclepan     
 /customs/librarycirclepan/build/
-/customs/librarycirclepan/*.iml
 
 #librarycircletick
 /customs/librarycircletick/build/
-/customs/librarycircletick/*.iml
 
 #library_light_view
 /customs/library_light_view/build/
-/customs/library_light_view/*.iml
 
 #library_move_draw
 /customs/library_move_draw/build/
-/customs/library_move_draw/*.iml
 

@@ -28,6 +28,7 @@
         <activity android:name=".animation.LoadingAnimationActivity"/>
         <activity android:name=".animation.FallingBallAnimationActivity"/>
         <activity android:name=".animation.MenuAnimationActivity"/>
+        <activity android:name=".animation.TanAnimationActivity"/>
     </application>
 
 </manifest>

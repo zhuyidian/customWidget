@@ -14,7 +14,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/library_animation/library_animation.iml" filepath="$PROJECT_DIR$/.idea/modules/library_animation/library_animation.iml" group="customs/library_animation" />
       <module fileurl="file://$PROJECT_DIR$/library_light_view/library_light_view.iml" filepath="$PROJECT_DIR$/library_light_view/library_light_view.iml" />
       <module fileurl="file://$PROJECT_DIR$/library_move_draw/library_move_draw.iml" filepath="$PROJECT_DIR$/library_move_draw/library_move_draw.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library_timebar/library_timebar.iml" filepath="$PROJECT_DIR$/.idea/modules/library_timebar/library_timebar.iml" />
       <module fileurl="file://$PROJECT_DIR$/librarycalendar/librarycalendar.iml" filepath="$PROJECT_DIR$/librarycalendar/librarycalendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/librarycirclepan/librarycirclepan.iml" filepath="$PROJECT_DIR$/librarycirclepan/librarycirclepan.iml" />
       <module fileurl="file://$PROJECT_DIR$/librarycircletick/librarycircletick.iml" filepath="$PROJECT_DIR$/librarycircletick/librarycircletick.iml" />

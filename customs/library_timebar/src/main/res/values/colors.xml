@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    -->
+    <color name="colorRecordGreen">#dd044f65</color>
+    <color name="colorGrayTransparent">#1affffff</color>
+    <color name="color_33ffffff">#ffffff</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="color_main_buttom_yellow">#2EC6F6</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorgrey">#524B42</color>
+    <color name="colorbg">#26241C</color>
+    <color name="colorbaby_text">#985A1D</color>
+
+    <color name="transparentPush">#80000000</color>
+    <color name="color_sonic_bg">#ff2ec6f7</color>
+</resources>

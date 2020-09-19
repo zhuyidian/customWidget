@@ -17,13 +17,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".CircleTickActivity"/>
-        <activity android:name=".CirclePanActivity"/>
-        <activity android:name=".CalendarActivity"/>
-        <activity android:name=".MoveDarwActivity"
+        <activity android:name=".widget.CircleTickActivity"/>
+        <activity android:name=".widget.CirclePanActivity"/>
+        <activity android:name=".widget.CalendarActivity"/>
+        <activity android:name=".widget.MoveDarwActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".LightActivity"
+        <activity android:name=".widget.LightActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".animation.ScanAnimationActivity"/>
     </application>
 
 </manifest>

@@ -80,6 +80,10 @@ public class MainActivity extends AppCompatActivity {
                 "menuAnimation",
                 "com.example.sample.animation.MenuAnimationActivity");
         mListData.add(beanMenuAnimation);
+        CustomBean beanTanAnimation = new CustomBean("tanAnimation",
+                "tanAnimation",
+                "com.example.sample.animation.TanAnimationActivity");
+        mListData.add(beanTanAnimation);
 
         mAdapter = new CustomAdapter(MainActivity.this,mListData);
         list.setAdapter(mAdapter);

@@ -57,6 +57,12 @@ public class MainActivity extends AppCompatActivity {
                 "com.example.sample.widget.LightActivity");
         mListData.add(beanlight);
 
+
+        CustomBean beanTimeBar = new CustomBean("TimeBar",
+                "时间轴",
+                "com.example.sample.widget.TimeBarActivity");
+        mListData.add(beanTimeBar);
+
         //add animation
         CustomBean beanScanAnimation = new CustomBean("scanAnimation",
                 "scanAnimation",

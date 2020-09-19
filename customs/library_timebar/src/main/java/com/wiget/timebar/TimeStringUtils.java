@@ -15,42 +15,16 @@ import java.util.Locale;
 import java.util.TimeZone;
 import java.util.regex.Pattern;
 
-import vstc.ORLLO.bean.results.CloudTimeBean;
-import vstc.ORLLO.mvp.helper.CTimeHelper;
-import vstc.ORLLO.utilss.LogTools;
-import vstc.ORLLO.widgets.recordsliderview.bean.RecordTimeBean;
+
 
 /**
  * Created by Administrator on 2017/3/7.
  */
 
 public class TimeStringUtils {
-    public static RecordTimeBean time2string(String datename, String time) {
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String datetime = datename.replace(":", " ") + ":" + time.substring(0, 2) + ":" + time.substring(2, 4);
-        Date date = null;
-        try {
-            date = format.parse(datetime);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        String sencod = time.substring(5, time.length());
-        return new RecordTimeBean(date.getTime(), date.getTime() + 1000 * Integer.valueOf(sencod));
-    }
 
-    public static CloudTimeBean CloudTimeBean_time2string(String uid, String datename, String time) {
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String datetime = datename.replace(":", " ") + ":" + time.substring(0, 2) + ":" + time.substring(2, 4);
-        Date date = null;
-        try {
-            date = format.parse(datetime);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        String sencod = time.substring(5, time.length());
-        long sencodTime = date.getTime() + 1000 * Integer.valueOf(sencod);
-        return new CloudTimeBean(datetime, getDateFormat(sencodTime), date.getTime(), sencodTime,uid);
-    }
+
+
 
     public static long time2string(String datename) {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -88,19 +62,6 @@ public class TimeStringUtils {
         return format.format(time).replace(":", "_").replace(" ", ":") + "_10";
     }
 
-    public static String getDataString(RecordAlarmTimeSegment temptime) {
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        long startT=0;
-        if (temptime.getTempStartTimeMillisecond()!=0){
-            startT=temptime.getTempStartTimeMillisecond();
-        }else {
-            startT=temptime.getStartTimeInMillisecond();
-        }
-        long endT=temptime.getEndTimeInMillisecond();
-        long temp=(endT-startT) / 1000;
-        return format.format(startT- CTimeHelper.GreemTime).replace(":", "_").replace(" ", ":")
-                + "_" +(temp>=10?temp+"":"0"+temp) ;
-    }
 
 
     public static String toJSONArray(List<String> stringlist) {
@@ -338,9 +299,7 @@ public class TimeStringUtils {
             list.add(date + ":" + j);
 
         }
-        for (int i = 0; i < list.size(); i++) {
-            LogTools.print("小时集合="+list.get(i));
-        }
+
 
         return list;
 
@@ -370,10 +329,7 @@ public class TimeStringUtils {
             }
         return timeX*3600000;
     }
-    public static String getTimeByHour2(long time, int hour){
-        //time-1000*60*60;
-        return getRightString(getDateFormat(time-1000*60*60*hour-CTimeHelper.GreemTime));
-    }
+
 
     private static String getRightString(String string){
         //2017-06-20 17:46:34

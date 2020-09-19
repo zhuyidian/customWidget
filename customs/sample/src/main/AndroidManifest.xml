@@ -24,6 +24,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".widget.LightActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".widget.TimeBarActivity"
+            android:screenOrientation="portrait"/>
         <activity android:name=".animation.ScanAnimationActivity"/>
     </application>
 

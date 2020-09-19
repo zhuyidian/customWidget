@@ -25,6 +25,9 @@
         <activity android:name=".widget.LightActivity"
             android:screenOrientation="portrait"/>
         <activity android:name=".animation.ScanAnimationActivity"/>
+        <activity android:name=".animation.LoadingAnimationActivity"/>
+        <activity android:name=".animation.FallingBallAnimationActivity"/>
+        <activity android:name=".animation.MenuAnimationActivity"/>
     </application>
 
 </manifest>

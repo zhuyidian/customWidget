@@ -62,6 +62,18 @@ public class MainActivity extends AppCompatActivity {
                 "scanAnimation",
                 "com.example.sample.animation.ScanAnimationActivity");
         mListData.add(beanScanAnimation);
+        CustomBean beanLoadingAnimation = new CustomBean("loadingAnimation",
+                "loadingAnimation",
+                "com.example.sample.animation.LoadingAnimationActivity");
+        mListData.add(beanLoadingAnimation);
+        CustomBean beanFallingBallAnimation = new CustomBean("fallingBallAnimation",
+                "fallingBallAnimation",
+                "com.example.sample.animation.FallingBallAnimationActivity");
+        mListData.add(beanFallingBallAnimation);
+        CustomBean beanMenuAnimation = new CustomBean("menuAnimation",
+                "menuAnimation",
+                "com.example.sample.animation.MenuAnimationActivity");
+        mListData.add(beanMenuAnimation);
 
         mAdapter = new CustomAdapter(MainActivity.this,mListData);
         list.setAdapter(mAdapter);

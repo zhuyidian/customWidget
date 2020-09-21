@@ -52,8 +52,10 @@ dependencies {
     //implementation project(':library_animation')
     implementation 'com.github.teamZW.customWidget:library_animation:1.0.9'
 
-    implementation project(':library_timebar')
+    //implementation project(':library_timebar')
+    implementation 'com.github.teamZW.customWidget:library_timebar:1.1.0'
 
     //lock
-    implementation project(':library_lock')
+    //implementation project(':library_lock')
+    implementation 'com.github.teamZW.customWidget:library_lock:1.1.0'
 }

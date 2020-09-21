@@ -18,15 +18,12 @@ import com.tc.lock.CircleLock;
 
 public class CircleLockActivity extends AppCompatActivity {
     private CircleLock mCircleLock;
-    private int screenWidth,screenHeight;
     private TextView valueTV1,valueTV2,valueTV3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_circlelock);
-        screenWidth = getScreenWidth(CircleLockActivity.this);
-        screenHeight = getScreenHeight(CircleLockActivity.this);
 
         valueTV1 = (TextView)findViewById(R.id.valuetv1);
         valueTV2 = (TextView)findViewById(R.id.valuetv2);
@@ -62,22 +59,4 @@ public class CircleLockActivity extends AppCompatActivity {
     public void onBack(View view){
         finish();
     }
-
-    @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
-    public static int getScreenWidth(Context context) {
-        WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
-        Display defaultDisplay = windowManager.getDefaultDisplay();
-        Point outPoint = new Point();
-        defaultDisplay.getRealSize(outPoint);
-        return outPoint.x;
-    }
-    @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
-    public static int getScreenHeight(Context context) {
-        WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
-        Display defaultDisplay = windowManager.getDefaultDisplay();
-        Point outPoint = new Point();
-        defaultDisplay.getRealSize(outPoint);
-        return outPoint.y;
-    }
-
 }

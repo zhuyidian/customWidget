@@ -85,6 +85,12 @@ public class MainActivity extends AppCompatActivity {
                 "com.example.sample.animation.TanAnimationActivity");
         mListData.add(beanTanAnimation);
 
+        //add lock
+        CustomBean beanLock = new CustomBean("lock",
+                "密码锁",
+                "com.example.sample.widget.CircleLockActivity");
+        mListData.add(beanLock);
+
         mAdapter = new CustomAdapter(MainActivity.this,mListData);
         list.setAdapter(mAdapter);
     }

@@ -1,0 +1,83 @@
+package com.example.sample.widget;
+
+import android.annotation.TargetApi;
+import android.content.Context;
+import android.graphics.Point;
+import android.os.Build;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.Display;
+import android.view.View;
+import android.view.WindowManager;
+import android.widget.TextView;
+
+import com.example.sample.R;
+import com.tc.lock.CircleLock;
+
+
+public class CircleLockActivity extends AppCompatActivity {
+    private CircleLock mCircleLock;
+    private int screenWidth,screenHeight;
+    private TextView valueTV1,valueTV2,valueTV3;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_circlelock);
+        screenWidth = getScreenWidth(CircleLockActivity.this);
+        screenHeight = getScreenHeight(CircleLockActivity.this);
+
+        valueTV1 = (TextView)findViewById(R.id.valuetv1);
+        valueTV2 = (TextView)findViewById(R.id.valuetv2);
+        valueTV3 = (TextView)findViewById(R.id.valuetv3);
+        mCircleLock = (CircleLock)findViewById(R.id.crpv_tick);
+        mCircleLock.setOnTimeChangeListener(new CircleLock.OnTimeChangeListener() {
+            @Override
+            public void onChange(int value1, int value2, int value3) {
+                Log.v("lock", "main onChange value1="+value1+", value2="+value2+", value3="+value3);
+                valueTV3.setText(value1<10 ? ("0"+value1) : (value1+""));
+                valueTV2.setText(value2<10 ? ("0"+value2) : (value2+""));
+                valueTV1.setText(value3<10 ? ("0"+value3) : (value3+""));
+            }
+
+            @Override
+            public void updateSingle(int index, int value) {
+                if(index==1){
+                    valueTV3.setText(value<10 ? ("0"+value) : (value+""));
+                }else if(index==2){
+                    valueTV2.setText(value<10 ? ("0"+value) : (value+""));
+                }else if(index==3){
+                    valueTV1.setText(value<10 ? ("0"+value) : (value+""));
+                }
+            }
+//
+//            @Override
+//            public void onChange(int value) {
+//                //Log.v("lock", "main onChange value="+value);
+//            }
+        });
+    }
+
+    public void onBack(View view){
+        finish();
+    }
+
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
+    public static int getScreenWidth(Context context) {
+        WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        Display defaultDisplay = windowManager.getDefaultDisplay();
+        Point outPoint = new Point();
+        defaultDisplay.getRealSize(outPoint);
+        return outPoint.x;
+    }
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
+    public static int getScreenHeight(Context context) {
+        WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        Display defaultDisplay = windowManager.getDefaultDisplay();
+        Point outPoint = new Point();
+        defaultDisplay.getRealSize(outPoint);
+        return outPoint.y;
+    }
+
+}

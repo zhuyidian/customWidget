@@ -1,3 +1,5 @@
+apply from : this.rootProject.file('const.gradle')
+
 buildscript {
     ext {
         kotlin_version = '1.2.61'
@@ -17,9 +19,9 @@ buildscript {
 
 allprojects {
     repositories {
-	mavenCentral()
+	    mavenCentral()
         google()
         jcenter()
-	maven { url "https://jitpack.io" }
+	    maven { url "https://jitpack.io" }
     }
 }

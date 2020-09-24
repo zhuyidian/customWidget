@@ -91,6 +91,12 @@ public class MainActivity extends AppCompatActivity {
                 "com.example.sample.widget.CircleLockActivity");
         mListData.add(beanLock);
 
+        //add spread
+        CustomBean beanSpread = new CustomBean("spread",
+                "波纹",
+                "com.example.sample.widget.SpreadActivity");
+        mListData.add(beanSpread);
+
         mAdapter = new CustomAdapter(MainActivity.this,mListData);
         list.setAdapter(mAdapter);
     }

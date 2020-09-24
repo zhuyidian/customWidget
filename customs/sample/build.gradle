@@ -52,4 +52,7 @@ dependencies {
     //lock
     //implementation project(':library_lock')
     implementation 'com.github.teamZW.customWidget:library_lock:1.1.0'
+
+    //spread
+    implementation project(':library_spread')
 }

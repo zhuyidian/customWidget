@@ -32,6 +32,7 @@
         <activity android:name=".animation.MenuAnimationActivity"/>
         <activity android:name=".animation.TanAnimationActivity"/>
         <activity android:name=".widget.CircleLockActivity"/>
+        <activity android:name=".widget.SpreadActivity"/>
     </application>
 
 </manifest>

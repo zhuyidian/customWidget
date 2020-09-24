@@ -38,5 +38,9 @@
 /customs/library_timebar/build/
 /customs/library_timebar/*.iml
 
+#library_lock
+/customs/library_lock/build/
+/customs/library_lock/*.iml
+
 
 

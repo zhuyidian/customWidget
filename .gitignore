@@ -42,5 +42,9 @@
 /customs/library_lock/build/
 /customs/library_lock/*.iml
 
+#library_spread
+/customs/library_spread/build/
+/customs/library_spread/*.iml
+
 
 

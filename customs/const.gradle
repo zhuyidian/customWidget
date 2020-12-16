@@ -1,7 +1,7 @@
 ext {
     myMaven = [
             url : "https://jitpack.io",
-            git : 'com.github.teamZW.customWidget'
+            git : 'com.github.dunn.customWidget'
     ]
 
     android = [

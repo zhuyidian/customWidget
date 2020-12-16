@@ -97,6 +97,12 @@ public class MainActivity extends AppCompatActivity {
                 "com.example.sample.widget.SpreadActivity");
         mListData.add(beanSpread);
 
+        //add qqstep
+        CustomBean beanQQstep = new CustomBean("qqstep",
+                "仿QQ计步器",
+                "com.example.sample.widget.QQstepActivity");
+        mListData.add(beanQQstep);
+
         mAdapter = new CustomAdapter(MainActivity.this,mListData);
         list.setAdapter(mAdapter);
     }

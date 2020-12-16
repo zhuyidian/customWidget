@@ -33,6 +33,7 @@
         <activity android:name=".animation.TanAnimationActivity"/>
         <activity android:name=".widget.CircleLockActivity"/>
         <activity android:name=".widget.SpreadActivity"/>
+        <activity android:name=".widget.QQstepActivity"/>
     </application>
 
 </manifest>

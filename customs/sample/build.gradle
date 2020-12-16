@@ -55,4 +55,7 @@ dependencies {
 
     //spread
     implementation project(':library_spread')
+
+    //spread
+    implementation project(':library_qqstep')
 }

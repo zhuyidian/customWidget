@@ -13,8 +13,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
-import com.tc.lock.R;
-
 /**
  * Email 240336124@qq.com
  * Created by Darren on 2017/5/20.

@@ -27,35 +27,37 @@ dependencies {
 
     //circleTick
     //implementation project(':librarycircletick')
-    implementation 'com.github.teamZW.customWidget:librarycircletick:1.0.5'
+    implementation 'com.github.zhuyidian.customWidget:librarycircletick:1.1.1'
 
     //circlePan
     //implementation project(':librarycirclepan')
-    implementation 'com.github.teamZW.customWidget:librarycirclepan:1.0.5'
+    implementation 'com.github.zhuyidian.customWidget:librarycirclepan:1.1.1'
 
     //calendar
     //implementation project(':librarycalendar')
-    implementation 'com.github.teamZW.customWidget:librarycalendar:1.0.6'
+    implementation 'com.github.zhuyidian.customWidget:librarycalendar:1.1.1'
 
     //implementation project(':library_move_draw')
     //implementation project(':library_light_view')
-    implementation 'com.github.teamZW.customWidget:library_move_draw:1.0.7'
-    implementation 'com.github.teamZW.customWidget:library_light_view:1.0.7'
+    implementation 'com.github.zhuyidian.customWidget:library_move_draw:1.1.1'
+    implementation 'com.github.zhuyidian.customWidget:library_light_view:1.1.1'
 
     //animation
     //implementation project(':library_animation')
-    implementation 'com.github.teamZW.customWidget:library_animation:1.0.9'
+    implementation 'com.github.zhuyidian.customWidget:library_animation:1.1.1'
 
     //implementation project(':library_timebar')
-    implementation 'com.github.teamZW.customWidget:library_timebar:1.1.0'
+    implementation 'com.github.zhuyidian.customWidget:library_timebar:1.1.1'
 
     //lock
     //implementation project(':library_lock')
-    implementation 'com.github.teamZW.customWidget:library_lock:1.1.0'
+    implementation 'com.github.zhuyidian.customWidget:library_lock:1.1.1'
 
     //spread
-    implementation project(':library_spread')
+    //implementation project(':library_spread')
+    implementation 'com.github.zhuyidian.customWidget:library_spread:1.1.1'
 
     //spread
     implementation project(':library_qqstep')
+    //implementation 'com.github.zhuyidian.customWidget:library_qqstep:1.1.1'
 }

@@ -8,7 +8,7 @@ INJECTED from /home/dunn/project/github/customWidget/customs/library_qqstep/src/
 INJECTED from /home/dunn/project/github/customWidget/customs/library_qqstep/src/main/AndroidManifest.xml:1:1-6:12
 INJECTED from /home/dunn/project/github/customWidget/customs/library_qqstep/src/main/AndroidManifest.xml:1:1-6:12
 	package
-		ADDED from /home/dunn/project/github/customWidget/customs/library_qqstep/src/main/AndroidManifest.xml:1:11-32
+		ADDED from /home/dunn/project/github/customWidget/customs/library_qqstep/src/main/AndroidManifest.xml:1:11-34
 		INJECTED from /home/dunn/project/github/customWidget/customs/library_qqstep/src/main/AndroidManifest.xml
 		INJECTED from /home/dunn/project/github/customWidget/customs/library_qqstep/src/main/AndroidManifest.xml
 	android:versionName

@@ -1,3 +1,3 @@
 include ':librarycircletick', ':librarycirclepan', ':librarycalendar', ':sample','library_move_draw','library_light_view','library_animation' ,'library_timebar','library_lock','library_spread',
-'library_qqstep'
+'library_qqstep','library_slidingmenu','library_qqslidingmenu'
 

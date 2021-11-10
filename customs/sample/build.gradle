@@ -60,4 +60,9 @@ dependencies {
     //spread
     //implementation project(':library_qqstep')
     implementation 'com.github.zhuyidian.customWidget:library_qqstep:1.1.2'
+
+    //slidingmenu
+    implementation project(':library_slidingmenu')
+    implementation project(':library_qqslidingmenu')
+//    implementation 'com.github.zhuyidian.customWidget:library_qqstep:1.1.2'
 }

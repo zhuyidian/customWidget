@@ -15,8 +15,6 @@ import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
 /**
- * Email 240336124@qq.com
- * Created by Darren on 2017/5/20.
  * Version 1.0
  * Description: 仿QQ运动步数
  */

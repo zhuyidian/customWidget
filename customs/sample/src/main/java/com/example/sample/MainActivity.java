@@ -3,9 +3,12 @@ package com.example.sample;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.example.sample.data.CustomAdapter;
 import com.example.sample.data.CustomBean;
@@ -102,6 +105,18 @@ public class MainActivity extends AppCompatActivity {
                 "仿QQ计步器",
                 "com.example.sample.widget.QQstepActivity");
         mListData.add(beanQQstep);
+
+        //add slidingmenu
+        CustomBean slidingmenu = new CustomBean("slidingmenu",
+                "侧滑",
+                "com.example.sample.widget.SlidingMenuActivity");
+        mListData.add(slidingmenu);
+
+        //add qqslidingmenu
+        CustomBean qqslidingmenu = new CustomBean("qqslidingmenu",
+                "仿QQ侧滑",
+                "com.example.sample.widget.QQSlidingMenuActivity");
+        mListData.add(qqslidingmenu);
 
         mAdapter = new CustomAdapter(MainActivity.this,mListData);
         list.setAdapter(mAdapter);
